@@ -1,0 +1,14 @@
+127.0.0.1 - - [24/Feb/2023:18:08:55 +0530] "GET /SpringBootstrapCrud/ HTTP/1.1" 200 11
+127.0.0.1 - - [24/Feb/2023:18:08:55 +0530] "GET /SpringBootstrapCrud/somerandomurl HTTP/1.1" 200 9
+127.0.0.1 - - [24/Feb/2023:18:08:55 +0530] "GET /SpringBootstrapCrud/testRead HTTP/1.1" 200 11
+127.0.0.1 - - [24/Feb/2023:18:08:55 +0530] "GET /SpringBootstrapCrud/testRead1 HTTP/1.1" 200 24
+127.0.0.1 - - [24/Feb/2023:18:08:56 +0530] "GET /SpringBootstrapCrud/testRead2 HTTP/1.1" 200 31
+127.0.0.1 - - [24/Feb/2023:18:08:56 +0530] "GET /SpringBootstrapCrud/testRead3?name=Dave HTTP/1.1" 200 31
+127.0.0.1 - - [24/Feb/2023:18:08:56 +0530] "GET /SpringBootstrapCrud/testRead3?name=Dave HTTP/1.1" 200 31
+127.0.0.1 - - [24/Feb/2023:18:08:56 +0530] "GET /SpringBootstrapCrud/ HTTP/1.0" 200 11
+127.0.0.1 - - [24/Feb/2023:18:08:56 +0530] "GET /SpringBootstrapCrud/somerandomurl HTTP/1.0" 200 9
+127.0.0.1 - - [24/Feb/2023:18:08:56 +0530] "GET /SpringBootstrapCrud/testRead HTTP/1.0" 200 11
+127.0.0.1 - - [24/Feb/2023:18:08:56 +0530] "GET /SpringBootstrapCrud/testRead1 HTTP/1.0" 200 24
+127.0.0.1 - - [24/Feb/2023:18:08:56 +0530] "GET /SpringBootstrapCrud/testRead2 HTTP/1.0" 200 31
+127.0.0.1 - - [24/Feb/2023:18:08:56 +0530] "GET /SpringBootstrapCrud/testRead3?name=Dave HTTP/1.0" 200 31
+127.0.0.1 - - [24/Feb/2023:18:08:56 +0530] "GET /SpringBootstrapCrud/testRead3?name=Dave HTTP/1.0" 200 31

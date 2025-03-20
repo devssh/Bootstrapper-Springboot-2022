@@ -1,0 +1,9 @@
+CREATE TABLE test.test
+( 
+NAME TEXT PRIMARY KEY NOT NULL,
+ID INT NOT NULL
+)
+;
+
+ALTER TABLE IF EXISTS test.test
+    OWNER to test;

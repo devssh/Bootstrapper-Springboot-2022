@@ -1,0 +1,8 @@
+appdata/bootstrapdata/build.gradle
+appdata/bootstrapdata/Procfile
+appdata/bootstrapdata/settings.gradle
+appdata/bootstrapdata/src/main/resources/application.properties
+appdata/bootstrapdata/src/main/resources/logback.xml
+appdata/tomcatdata/server.xml
+appdata/nginx/nginx.conf
+appdata/osdata/hosts

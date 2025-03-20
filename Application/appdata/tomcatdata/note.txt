@@ -1,0 +1,1 @@
+Can use HTTPD to set up a reverse proxy using Tomcat, using nginx instead to create a CMZ and will treat tomcat as DMZ for 2 layers of protection

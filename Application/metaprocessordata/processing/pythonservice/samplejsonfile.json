@@ -1,0 +1,19 @@
+{
+"approvedfiles": [
+"HELP.md",
+"Procfile",
+"gradlew",
+"gradlew.bat",
+"logback.xml",
+"run_build.sh"
+], "approvedfolders":[
+".gradle",
+"gradle"
+], "preparefiles": [
+"build.gradle",
+"local_build.sh",
+"run_prod.sh",
+"settings.gradle"
+], "preparefolders": [
+"src"
+]}

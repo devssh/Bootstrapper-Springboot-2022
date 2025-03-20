@@ -1,0 +1,13 @@
+appdata/bootstrapdata/build.gradle
+appdata/bootstrapdata/Procfile
+appdata/bootstrapdata/settings.gradle
+appdata/bootstrapdata/src/main/resources/application.properties
+appdata/bootstrapdata/src/main/resources/logback.xml
+appdata/tomcatdata/conf/server.xml
+appdata/tomcatdata/conf/web.xml
+appdata/nginxdata/nginx.conf
+appdata/osdata/hosts
+appdata/docker/jar/Dockerfile
+appdata/docker/jar/docker-compose.yml
+appdata/docker/nginx/Dockerfile
+appdata/docker/nginx/docker-compose.yml

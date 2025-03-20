@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-2 -9.325873406851315e-14 1234 840" preserveAspectRatio="xMinYMin meet"  onload="window.print();"><rect id="svgEditorBackground" x="0" y="0" width="1230" height="840" style="fill: none; stroke: none;"/><defs id="svgEditorDefs"><line id="svgEditorLineDefs" style="fill:none;stroke:black;stroke-width:1px"/><polygon id="svgEditorPolygonDefs" style="stroke:black;stroke-width:1px;fill:rosybrown"/><text id="svgEditorTextDefs" style="fill:black;font-family:Arial;font-size:20px"/><polygon id="svgEditorIconDefs" style="fill:rosybrown;"/><polygon id="svgEditorShapeDefs" style="fill:rosybrown;stroke:black;vector-effect:non-scaling-stroke;stroke-width:1px"/><path id="svgEditorClosePathDefs" style="stroke:black;stroke-width:1px;fill:rosybrown"/></defs><style type="text/css" id="draw-svg-hightlight">#svgEditorTargetHighlightPoint{cursor:pointer;stroke:black;fill:lavender;fill-opacity:0.8;}#svgEditorTargetHighlightPoint:hover{fill:blue;fill-opacity:1;}.GCO2KGCCAL{cursor:pointer;stroke:none;cursor:pointer;fill:lavender;fill-opacity:0.8;}.GCO2KGCCBL{cursor:pointer;stroke:lavender;cursor:pointer;fill:none;stroke-opacity:0.8;}</style><g style="fill:rosybrown;stroke:black;vector-effect:non-scaling-stroke;stroke-width:1px" id="e1_shape" transform="matrix(1.91863 0 0 1.91863 284.678 238.255)"/><defs id="draw-svg-v1-0-js">
+<script type="text/ecmascript">
+var svgtk = {};
+svgtk.checkTypeOfMember = function(o,m) {
+	try {return typeof(o[m])!='undefined';} catch(ex) {return false;}
+};
+svgtk.callWindowParentFunction = function(m) {
+	if(svgtk.checkTypeOfMember(window.parent, m)) window.parent[m]();
+};
+svgtk.callWindowParentFunction1 = function(m,a1) {
+	if(svgtk.checkTypeOfMember(window.parent, m)) window.parent[m](a1);
+};
+var svgDraw = {};
+svgDraw.focus = function() {window.focus();};
+svgDraw.blur = function() {window.blur();};
+svgDraw.pasteIntercept = function(event) {
+	try {
+	var text = "";
+	if (event.clipboardData) text = event.clipboardData.getData("Text"); 
+	else if (window.clipboardData) text = window.clipboardData.getData("Text"); 
+	if (text!="") svgtk.callWindowParentFunction1('onSvgDrawTextPaste', text);
+	} catch(ex) {alert("svgDraw.pasteIntercept "+ex);}
+};
+svgDraw.addPasteHandler = function() {
+	document.documentElement.addEventListener("paste", svgDraw.pasteIntercept, false);
+};
+svgDraw.removePasteHandler = function() {
+	document.documentElement.removeEventListener("paste", svgDraw.pasteIntercept, false);
+};
+ // API externe
+ window['draw-svg-v1-0-js'] = svgDraw;
+ window.parent['draw-svg-v1-0-js'] = svgDraw;
+ </script>
+</defs><path d="M8.204651,3.41628v5q0,1,4,1t4,-1v-5q0,1,-4,1t-4,-1q0,-1,4,-1t4,1t-4,1t-4,-1Z" style="fill:blue;stroke:#000000;vector-effect:non-scaling-stroke;stroke-width:11" id="e3_shape" transform="matrix(90.9196 0 0 90.9196 -460.597 -102.807)"/></svg>

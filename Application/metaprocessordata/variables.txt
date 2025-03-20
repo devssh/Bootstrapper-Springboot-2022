@@ -1,0 +1,6 @@
+projectname=SpringBootstrapCrud
+username=test
+password=test
+port=8081
+hostip=127.0.0.1
+host=crudbackend

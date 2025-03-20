@@ -1,0 +1,76 @@
+COMMAND   PID   USER   FD     TYPE             DEVICE  SIZE/OFF                NODE NAME
+java    18108 devssh  cwd      DIR               1,16      1024             9613863 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/bin
+java    18108 devssh  txt      REG               1,16     50561             1799715 /opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/bin/java
+java    18108 devssh  txt      REG               1,16    129808             1800278 /opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib/libjli.dylib
+java    18108 devssh  txt      REG               1,16     32768             9615143 /private/var/folders/ht/jhsjr9912dn8j8mjl0j2xk5r0000gn/T/hsperfdata_devssh/18108
+java    18108 devssh  txt      REG               1,16     76192             1800277 /opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib/libjimage.dylib
+java    18108 devssh  txt      REG               1,16     46944             9529352 /Library/Preferences/Logging/.plist-cache.FTf6gH37
+java    18108 devssh  txt      REG               1,16    203376             1800273 /opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib/libjava.dylib
+java    18108 devssh  txt      REG               1,16     91152             1800309 /opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib/libzip.dylib
+java    18108 devssh  txt      REG               1,16    125664             1800297 /opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib/libnio.dylib
+java    18108 devssh  txt      REG               1,16    115056             1800294 /opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib/libnet.dylib
+java    18108 devssh  txt      REG               1,16     75296             1800286 /opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib/libmanagement.dylib
+java    18108 devssh  txt      REG               1,16   2177216 1152921500312782999 /usr/lib/dyld
+java    18108 devssh  txt      REG               1,16     74448             1800289 /opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib/libmanagement_ext.dylib
+java    18108 devssh  txt      REG               1,16     69312             1800265 /opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib/libextnet.dylib
+java    18108 devssh  txt      REG               1,16     89152             1800308 /opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib/libverify.dylib
+java    18108 devssh  txt      REG               1,16  15153456             1800313 /opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib/server/libjvm.dylib
+java    18108 devssh  txt      REG               1,16 128862507             1799805 /opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib/modules
+java    18108 devssh  txt      REG               1,16  30399984 1152921500312794842 /usr/share/icu/icudt70l.dat
+java    18108 devssh  txt      REG               1,16  13418496             1799779 /opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib/server/classes.jsa
+java    18108 devssh    0r     CHR                3,2       0t0                 337 /dev/null
+java    18108 devssh    1w     REG               1,16     11397             9615142 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/logs/catalina.out
+java    18108 devssh    2w     REG               1,16     11397             9615142 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/logs/catalina.out
+java    18108 devssh    3r     REG               1,16 128862507             1799805 /opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib/modules
+java    18108 devssh    4r     REG               1,16     48258             9613871 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/bin/tomcat-juli.jar
+java    18108 devssh    5r     REG               1,16     35798             9613874 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/bin/bootstrap.jar
+java    18108 devssh    6u     CHR               16,0 0t2710631                 707 /dev/ttys000
+java    18108 devssh    7r     REG               1,16     25765             9613873 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/bin/commons-daemon.jar
+java    18108 devssh    8r     REG               1,16     31697             9613905 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/websocket-client-api.jar
+java    18108 devssh    9r     REG               1,16    191830             9613906 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/tomcat-i18n-ko.jar
+java    18108 devssh   10r     REG               1,16     89337             9613907 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/el-api.jar
+java    18108 devssh   11r     REG               1,16    104046             9613908 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/tomcat-i18n-es.jar
+java    18108 devssh   12r     REG               1,16    240323             9613909 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/tomcat-websocket.jar
+java    18108 devssh   13r     REG               1,16    569414             9613910 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/jasper.jar
+java    18108 devssh   14r     REG               1,16    172906             9613911 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/jasper-el.jar
+java    18108 devssh   15r     REG               1,16    204091             9613912 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/tomcat-util.jar
+java    18108 devssh   16r     REG               1,16     77387             9613913 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/tomcat-i18n-de.jar
+java    18108 devssh   17r     REG               1,16     78935             9613914 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/catalina-storeconfig.jar
+java    18108 devssh   18r     REG               1,16   3237597             9613915 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/ecj-4.26.jar
+java    18108 devssh   19r     REG               1,16     67997             9613916 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/jsp-api.jar
+java    18108 devssh   20r     REG               1,16    763944             9613917 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/jakartaee-migration-1.0.6-shaded.jar
+java    18108 devssh   21r     REG               1,16    322408             9613918 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/catalina-tribes.jar
+java    18108 devssh   22r     REG               1,16     68468             9613919 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/tomcat-i18n-cs.jar
+java    18108 devssh   23r     REG               1,16   1700406             9613920 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/catalina.jar
+java    18108 devssh   24r     REG               1,16     16121             9613921 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/tomcat-jni.jar
+java    18108 devssh   25r     REG               1,16     52068             9613922 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/tomcat-i18n-pt-BR.jar
+java    18108 devssh   26r     REG               1,16     63435             9613923 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/catalina-ssi.jar
+java    18108 devssh   27r     REG               1,16     14748             9613924 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/websocket-api.jar
+java    18108 devssh   28r     REG               1,16    868481             9613925 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/tomcat-coyote.jar
+java    18108 devssh   29r     REG               1,16    125132             9613926 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/catalina-ha.jar
+java    18108 devssh   30r     REG               1,16     11570             9613927 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/tomcat-api.jar
+java    18108 devssh   31r     REG               1,16     14122             9613928 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/annotations-api.jar
+java    18108 devssh   32r     REG               1,16     28466             9613929 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/jaspic-api.jar
+java    18108 devssh   33r     REG               1,16    175966             9613930 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/tomcat-i18n-zh-CN.jar
+java    18108 devssh   34r     REG               1,16     56017             9613931 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/catalina-ant.jar
+java    18108 devssh   35r     REG               1,16    365698             9613932 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/servlet-api.jar
+java    18108 devssh   36r     REG               1,16    229271             9613933 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/tomcat-util-scan.jar
+java    18108 devssh   37r     REG               1,16    191578             9613934 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/tomcat-i18n-ja.jar
+java    18108 devssh   38r     REG               1,16     49200             9613935 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/tomcat-i18n-ru.jar
+java    18108 devssh   39r     REG               1,16    149556             9613936 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/tomcat-jdbc.jar
+java    18108 devssh   40r     REG               1,16    168730             9613937 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/tomcat-i18n-fr.jar
+java    18108 devssh   41r     REG               1,16    335564             9613938 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/lib/tomcat-dbcp.jar
+java    18108 devssh   42w     REG               1,16      8337             9615144 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/logs/catalina.2023-02-21.log
+java    18108 devssh   43u    IPv6 0xd8387bfe25c20d6d       0t0                 TCP *:sunproxyadmin (LISTEN)
+java    18108 devssh   44w     REG               1,16         0             9615147 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/logs/localhost_access_log.2023-02-21.txt
+java    18108 devssh   69u  KQUEUE                                                  count=0, state=0xa
+java    18108 devssh   70     PIPE 0xd26f47c66b56f21f     16384                     ->0xf4f24cd9bddb4860
+java    18108 devssh   71     PIPE 0xf4f24cd9bddb4860     16384                     ->0xd26f47c66b56f21f
+java    18108 devssh   72u   systm 0xd8387bfe27177ecd       0t0                     [ctl com.apple.netsrc id 6 unit 34]
+java    18108 devssh   73u    unix 0xd8387bf95aaa3eb5       0t0                     ->0xd8387bf95aaa4815
+java    18108 devssh   74u    IPv6 0xd8387bfe25c2306d       0t0                 TCP localhost:8005 (LISTEN)
+java    18108 devssh  111r     CHR               17,0      0t20                 612 /dev/random
+java    18108 devssh  112r     CHR               17,1     0t532                 613 /dev/urandom
+java    18108 devssh  113w     REG               1,16      2758             9615319 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/bin/logs/app.log
+java    18108 devssh  114u    unix 0xd8387bf95aaa3875       0t0                     ->(none)
+java    18108 devssh  115w     REG               1,16       687             9615320 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/logs/localhost.2023-02-21.log

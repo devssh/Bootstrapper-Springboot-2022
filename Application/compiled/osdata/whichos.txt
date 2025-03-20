@@ -1,0 +1,1 @@
+Darwin <redacted> 21.6.0 Darwin Kernel Version 21.6.0 <redacted> arm64

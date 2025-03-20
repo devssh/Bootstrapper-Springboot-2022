@@ -1,0 +1,8 @@
+\dt
+\du
+\list
+\q
+\c
+
+PGPASSWORD=test psql -U test -d test -c 'SELECT * FROM test.test'
+psql -U test -d test -c 'SELECT * FROM test.test'

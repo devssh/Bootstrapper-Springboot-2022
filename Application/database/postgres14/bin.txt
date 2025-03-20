@@ -1,0 +1,44 @@
+/opt/homebrew/opt/postgresql@14/bin
+cat /etc/postgres-reg.ini
+
+createuser -s postgres
+
+brew install postgres
+brew install pgadmin
+
+psql -U postgres
+
+SELECT
+	setting
+FROM
+	pg_settings
+WHERE
+	name = 'data_directory';
+
+show data_directory;
+
+data directory = /opt/homebrew/var/postgres
+
+
+
+==> Caveats
+==> postgresql@14
+Previous versions of postgresql shared the same data directory.
+
+You can migrate to a versioned data directory by running:
+  mv -v "/opt/homebrew/var/postgres" "/opt/homebrew/var/postgresql@14"
+
+(Make sure PostgreSQL is stopped before executing this command)
+
+This formula has created a default database cluster with:
+  initdb --locale=C -E UTF-8 /opt/homebrew/var/postgres
+For more details, read:
+  https://www.postgresql.org/docs/14/app-initdb.html
+
+To restart postgresql@14 after an upgrade:
+  brew services restart postgresql@14
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/postgresql@14/bin/postgres -D /opt/homebrew/var/postgres
+
+
+

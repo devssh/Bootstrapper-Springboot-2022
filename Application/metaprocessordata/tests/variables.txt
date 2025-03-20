@@ -1,0 +1,2 @@
+variablename1=world
+variablename2=quick brown fox

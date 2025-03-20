@@ -1,0 +1,804 @@
+24-Feb-2023 18:08:36.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.5
+24-Feb-2023 18:08:36.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 9 2023 19:52:50 UTC
+24-Feb-2023 18:08:36.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.5.0
+24-Feb-2023 18:08:36.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+24-Feb-2023 18:08:36.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.5
+24-Feb-2023 18:08:36.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+24-Feb-2023 18:08:36.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home
+24-Feb-2023 18:08:36.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.2+0
+24-Feb-2023 18:08:36.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+24-Feb-2023 18:08:36.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat
+24-Feb-2023 18:08:36.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat
+24-Feb-2023 18:08:36.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/conf/logging.properties
+24-Feb-2023 18:08:36.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Feb-2023 18:08:36.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Feb-2023 18:08:36.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Feb-2023 18:08:36.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Feb-2023 18:08:36.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Feb-2023 18:08:36.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-Feb-2023 18:08:36.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-Feb-2023 18:08:36.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-Feb-2023 18:08:36.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Feb-2023 18:08:36.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat
+24-Feb-2023 18:08:36.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat
+24-Feb-2023 18:08:36.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/temp
+24-Feb-2023 18:08:36.404 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/devssh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+24-Feb-2023 18:08:36.542 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+24-Feb-2023 18:08:36.554 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [232] milliseconds
+24-Feb-2023 18:08:36.571 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Feb-2023 18:08:36.572 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.5]
+24-Feb-2023 18:08:36.580 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/webapps/SpringBootstrapCrud.war]
+24-Feb-2023 18:08:37.737 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v3.0.2-SNAPSHOT)
+
+2023-02-24 18:08:38.108  INFO  SpringBootstrapCrudApplication -Starting SpringBootstrapCrudApplication using Java 18.0.2 with PID 10736 (/Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/webapps/SpringBootstrapCrud/WEB-INF/classes started by devssh in /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/bin)
+2023-02-24 18:08:38.110  INFO  SpringBootstrapCrudApplication -No active profile set, falling back to 1 default profile: "default"
+2023-02-24 18:08:38.837  INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-24 18:08:38.851  INFO  AnnotationActionEndpointMapping -Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-02-24 18:08:38.868  INFO  ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 637 ms
+2023-02-24 18:08:39.629  INFO  EndpointLinksResolver -Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-02-24 18:08:39.635  INFO  DefaultSecurityFilterChain -Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@34beebe0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78e4c48b, org.springframework.security.web.context.SecurityContextHolderFilter@2aed0f50, org.springframework.security.web.header.HeaderWriterFilter@31bf5580, org.springframework.web.filter.CorsFilter@7c26f301, org.springframework.security.web.csrf.CsrfFilter@163d83db, org.springframework.security.web.authentication.logout.LogoutFilter@1f953226, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4a8afcae, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@232cc375, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3c7da546, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@9a8b7d3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@145f4f6c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45fffd2c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7fdfa8c2, org.springframework.security.web.access.ExceptionTranslationFilter@7adb3688, org.springframework.security.web.access.intercept.AuthorizationFilter@76bfd311]
+2023-02-24 18:08:39.855  INFO  SpringBootstrapCrudApplication -Started SpringBootstrapCrudApplication in 1.945 seconds (process running for 3.622)
+24-Feb-2023 18:08:39.875 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/webapps/SpringBootstrapCrud.war] has finished in [3,295] ms
+24-Feb-2023 18:08:39.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/webapps/docs]
+24-Feb-2023 18:08:39.887 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/webapps/docs] has finished in [11] ms
+24-Feb-2023 18:08:39.887 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/webapps/manager]
+24-Feb-2023 18:08:39.902 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/webapps/manager] has finished in [15] ms
+24-Feb-2023 18:08:39.902 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/webapps/examples]
+24-Feb-2023 18:08:39.966 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/webapps/examples] has finished in [64] ms
+24-Feb-2023 18:08:39.966 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/webapps/ROOT]
+24-Feb-2023 18:08:39.972 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/webapps/ROOT] has finished in [6] ms
+24-Feb-2023 18:08:39.972 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/webapps/host-manager]
+24-Feb-2023 18:08:39.980 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application/apache-tomcat/webapps/host-manager] has finished in [8] ms
+24-Feb-2023 18:08:39.982 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+24-Feb-2023 18:08:39.995 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3440] milliseconds
+2023-02-24 18:08:55.473  INFO  DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2023-02-24 18:08:55.474  INFO  DispatcherServlet -Completed initialization in 1 ms
+24-Feb-2023 18:08:55.667 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1 START TIME        =24-Feb-2023 18:08:55
+24-Feb-2023 18:08:55.667 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1         requestURI=/SpringBootstrapCrud/
+24-Feb-2023 18:08:55.667 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1           authType=null
+24-Feb-2023 18:08:55.667 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1  characterEncoding=UTF-8
+24-Feb-2023 18:08:55.667 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1      contentLength=-1
+24-Feb-2023 18:08:55.667 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1        contentType=null
+24-Feb-2023 18:08:55.667 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1        contextPath=/SpringBootstrapCrud
+24-Feb-2023 18:08:55.668 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=host=localhost:8081
+24-Feb-2023 18:08:55.668 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=authorization=Basic dGVzdDp0ZXN0
+24-Feb-2023 18:08:55.668 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=user-agent=curl/7.82.0
+24-Feb-2023 18:08:55.668 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=accept=*/*
+24-Feb-2023 18:08:55.668 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             locale=en_IN
+24-Feb-2023 18:08:55.668 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             method=GET
+24-Feb-2023 18:08:55.668 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1           pathInfo=null
+24-Feb-2023 18:08:55.668 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1           protocol=HTTP/1.1
+24-Feb-2023 18:08:55.668 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1        queryString=null
+24-Feb-2023 18:08:55.668 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1         remoteAddr=127.0.0.1
+24-Feb-2023 18:08:55.668 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1         remoteHost=127.0.0.1
+24-Feb-2023 18:08:55.669 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1         remoteUser=test
+24-Feb-2023 18:08:55.669 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1 requestedSessionId=null
+24-Feb-2023 18:08:55.669 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             scheme=http
+24-Feb-2023 18:08:55.669 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1         serverName=localhost
+24-Feb-2023 18:08:55.669 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1         serverPort=8081
+24-Feb-2023 18:08:55.669 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1        servletPath=/
+24-Feb-2023 18:08:55.669 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1           isSecure=false
+24-Feb-2023 18:08:55.669 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1 ------------------=--------------------------------------------
+24-Feb-2023 18:08:55.684 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1 ------------------=--------------------------------------------
+24-Feb-2023 18:08:55.684 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1           authType=null
+24-Feb-2023 18:08:55.684 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1        contentType=application/json
+24-Feb-2023 18:08:55.684 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Vary=Origin
+24-Feb-2023 18:08:55.684 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:55.684 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:55.684 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Vary=Origin
+24-Feb-2023 18:08:55.684 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:55.685 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:55.685 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Vary=Origin
+24-Feb-2023 18:08:55.685 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:55.685 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:55.685 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=X-Content-Type-Options=nosniff
+24-Feb-2023 18:08:55.685 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=X-XSS-Protection=0
+24-Feb-2023 18:08:55.685 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+24-Feb-2023 18:08:55.685 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Pragma=no-cache
+24-Feb-2023 18:08:55.685 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Expires=0
+24-Feb-2023 18:08:55.685 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=X-Frame-Options=DENY
+24-Feb-2023 18:08:55.685 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Content-Type=application/json
+24-Feb-2023 18:08:55.685 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Content-Length=11
+24-Feb-2023 18:08:55.685 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Date=Fri, 24 Feb 2023 12:38:55 GMT
+24-Feb-2023 18:08:55.685 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1         remoteUser=test
+24-Feb-2023 18:08:55.685 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             status=200
+24-Feb-2023 18:08:55.686 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1 END TIME          =24-Feb-2023 18:08:55
+24-Feb-2023 18:08:55.686 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1 ===============================================================
+24-Feb-2023 18:08:55.770 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2 START TIME        =24-Feb-2023 18:08:55
+24-Feb-2023 18:08:55.770 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2         requestURI=/SpringBootstrapCrud/somerandomurl
+24-Feb-2023 18:08:55.770 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2           authType=null
+24-Feb-2023 18:08:55.770 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2  characterEncoding=UTF-8
+24-Feb-2023 18:08:55.770 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2      contentLength=-1
+24-Feb-2023 18:08:55.770 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2        contentType=null
+24-Feb-2023 18:08:55.770 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2        contextPath=/SpringBootstrapCrud
+24-Feb-2023 18:08:55.770 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=host=localhost:8081
+24-Feb-2023 18:08:55.770 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=authorization=Basic dGVzdDp0ZXN0
+24-Feb-2023 18:08:55.771 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=user-agent=curl/7.82.0
+24-Feb-2023 18:08:55.771 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=accept=*/*
+24-Feb-2023 18:08:55.771 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             locale=en_IN
+24-Feb-2023 18:08:55.771 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             method=GET
+24-Feb-2023 18:08:55.771 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2           pathInfo=null
+24-Feb-2023 18:08:55.771 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2           protocol=HTTP/1.1
+24-Feb-2023 18:08:55.771 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2        queryString=null
+24-Feb-2023 18:08:55.771 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2         remoteAddr=127.0.0.1
+24-Feb-2023 18:08:55.771 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2         remoteHost=127.0.0.1
+24-Feb-2023 18:08:55.771 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2         remoteUser=test
+24-Feb-2023 18:08:55.771 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2 requestedSessionId=null
+24-Feb-2023 18:08:55.771 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             scheme=http
+24-Feb-2023 18:08:55.771 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2         serverName=localhost
+24-Feb-2023 18:08:55.771 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2         serverPort=8081
+24-Feb-2023 18:08:55.771 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2        servletPath=/somerandomurl
+24-Feb-2023 18:08:55.771 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2           isSecure=false
+24-Feb-2023 18:08:55.771 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2 ------------------=--------------------------------------------
+2023-02-24 18:08:55.772  INFO  ReadController -Unmapped request handling!
+24-Feb-2023 18:08:55.774 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2 ------------------=--------------------------------------------
+24-Feb-2023 18:08:55.774 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2           authType=null
+24-Feb-2023 18:08:55.774 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2        contentType=application/json
+24-Feb-2023 18:08:55.774 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Vary=Origin
+24-Feb-2023 18:08:55.774 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:55.774 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:55.774 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Vary=Origin
+24-Feb-2023 18:08:55.774 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:55.774 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:55.774 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Vary=Origin
+24-Feb-2023 18:08:55.774 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:55.774 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:55.774 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=X-Content-Type-Options=nosniff
+24-Feb-2023 18:08:55.774 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=X-XSS-Protection=0
+24-Feb-2023 18:08:55.774 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+24-Feb-2023 18:08:55.774 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Pragma=no-cache
+24-Feb-2023 18:08:55.775 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Expires=0
+24-Feb-2023 18:08:55.775 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=X-Frame-Options=DENY
+24-Feb-2023 18:08:55.775 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Content-Type=application/json
+24-Feb-2023 18:08:55.775 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Content-Length=9
+24-Feb-2023 18:08:55.775 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Date=Fri, 24 Feb 2023 12:38:55 GMT
+24-Feb-2023 18:08:55.775 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2         remoteUser=test
+24-Feb-2023 18:08:55.775 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             status=200
+24-Feb-2023 18:08:55.775 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2 END TIME          =24-Feb-2023 18:08:55
+24-Feb-2023 18:08:55.775 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2 ===============================================================
+24-Feb-2023 18:08:55.858 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3 START TIME        =24-Feb-2023 18:08:55
+24-Feb-2023 18:08:55.859 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3         requestURI=/SpringBootstrapCrud/testRead
+24-Feb-2023 18:08:55.859 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3           authType=null
+24-Feb-2023 18:08:55.859 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3  characterEncoding=UTF-8
+24-Feb-2023 18:08:55.859 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3      contentLength=-1
+24-Feb-2023 18:08:55.859 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3        contentType=null
+24-Feb-2023 18:08:55.859 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3        contextPath=/SpringBootstrapCrud
+24-Feb-2023 18:08:55.859 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=host=localhost:8081
+24-Feb-2023 18:08:55.859 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=authorization=Basic dGVzdDp0ZXN0
+24-Feb-2023 18:08:55.859 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=user-agent=curl/7.82.0
+24-Feb-2023 18:08:55.859 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=accept=*/*
+24-Feb-2023 18:08:55.859 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             locale=en_IN
+24-Feb-2023 18:08:55.859 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             method=GET
+24-Feb-2023 18:08:55.859 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3           pathInfo=null
+24-Feb-2023 18:08:55.859 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3           protocol=HTTP/1.1
+24-Feb-2023 18:08:55.859 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3        queryString=null
+24-Feb-2023 18:08:55.859 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3         remoteAddr=127.0.0.1
+24-Feb-2023 18:08:55.859 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3         remoteHost=127.0.0.1
+24-Feb-2023 18:08:55.860 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3         remoteUser=test
+24-Feb-2023 18:08:55.860 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3 requestedSessionId=null
+24-Feb-2023 18:08:55.860 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             scheme=http
+24-Feb-2023 18:08:55.860 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3         serverName=localhost
+24-Feb-2023 18:08:55.860 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3         serverPort=8081
+24-Feb-2023 18:08:55.860 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3        servletPath=/testRead
+24-Feb-2023 18:08:55.860 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3           isSecure=false
+24-Feb-2023 18:08:55.860 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3 ------------------=--------------------------------------------
+2023-02-24 18:08:55.860  INFO  ReadController -Hello World
+24-Feb-2023 18:08:55.861 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3 ------------------=--------------------------------------------
+24-Feb-2023 18:08:55.861 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3           authType=null
+24-Feb-2023 18:08:55.861 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3        contentType=application/json
+24-Feb-2023 18:08:55.861 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Vary=Origin
+24-Feb-2023 18:08:55.861 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:55.861 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:55.861 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Vary=Origin
+24-Feb-2023 18:08:55.861 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:55.861 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:55.861 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Vary=Origin
+24-Feb-2023 18:08:55.861 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:55.861 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:55.862 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=X-Content-Type-Options=nosniff
+24-Feb-2023 18:08:55.862 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=X-XSS-Protection=0
+24-Feb-2023 18:08:55.862 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+24-Feb-2023 18:08:55.862 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Pragma=no-cache
+24-Feb-2023 18:08:55.862 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Expires=0
+24-Feb-2023 18:08:55.862 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=X-Frame-Options=DENY
+24-Feb-2023 18:08:55.862 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Content-Type=application/json
+24-Feb-2023 18:08:55.862 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Content-Length=11
+24-Feb-2023 18:08:55.862 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Date=Fri, 24 Feb 2023 12:38:55 GMT
+24-Feb-2023 18:08:55.862 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3         remoteUser=test
+24-Feb-2023 18:08:55.862 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             status=200
+24-Feb-2023 18:08:55.862 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3 END TIME          =24-Feb-2023 18:08:55
+24-Feb-2023 18:08:55.862 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3 ===============================================================
+24-Feb-2023 18:08:55.945 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4 START TIME        =24-Feb-2023 18:08:55
+24-Feb-2023 18:08:55.945 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4         requestURI=/SpringBootstrapCrud/testRead1
+24-Feb-2023 18:08:55.945 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4           authType=null
+24-Feb-2023 18:08:55.945 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4  characterEncoding=UTF-8
+24-Feb-2023 18:08:55.945 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4      contentLength=-1
+24-Feb-2023 18:08:55.945 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4        contentType=null
+24-Feb-2023 18:08:55.945 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4        contextPath=/SpringBootstrapCrud
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=host=localhost:8081
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=authorization=Basic dGVzdDp0ZXN0
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=user-agent=curl/7.82.0
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=accept=*/*
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             locale=en_IN
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             method=GET
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4           pathInfo=null
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4           protocol=HTTP/1.1
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4        queryString=null
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4         remoteAddr=127.0.0.1
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4         remoteHost=127.0.0.1
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4         remoteUser=test
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4 requestedSessionId=null
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             scheme=http
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4         serverName=localhost
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4         serverPort=8081
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4        servletPath=/testRead1
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4           isSecure=false
+24-Feb-2023 18:08:55.946 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4 ------------------=--------------------------------------------
+24-Feb-2023 18:08:55.947 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4 ------------------=--------------------------------------------
+24-Feb-2023 18:08:55.947 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4           authType=null
+24-Feb-2023 18:08:55.947 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4        contentType=application/json
+24-Feb-2023 18:08:55.947 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Vary=Origin
+24-Feb-2023 18:08:55.947 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Vary=Origin
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Vary=Origin
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=X-Content-Type-Options=nosniff
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=X-XSS-Protection=0
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Pragma=no-cache
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Expires=0
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=X-Frame-Options=DENY
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Content-Type=application/json
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Content-Length=24
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Date=Fri, 24 Feb 2023 12:38:55 GMT
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4         remoteUser=test
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             status=200
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4 END TIME          =24-Feb-2023 18:08:55
+24-Feb-2023 18:08:55.948 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4 ===============================================================
+24-Feb-2023 18:08:56.032 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5 START TIME        =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.032 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5         requestURI=/SpringBootstrapCrud/testRead2
+24-Feb-2023 18:08:56.032 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5           authType=null
+24-Feb-2023 18:08:56.032 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5  characterEncoding=UTF-8
+24-Feb-2023 18:08:56.032 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5      contentLength=-1
+24-Feb-2023 18:08:56.032 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5        contentType=null
+24-Feb-2023 18:08:56.032 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5        contextPath=/SpringBootstrapCrud
+24-Feb-2023 18:08:56.032 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=host=localhost:8081
+24-Feb-2023 18:08:56.032 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=authorization=Basic dGVzdDp0ZXN0
+24-Feb-2023 18:08:56.032 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=user-agent=curl/7.82.0
+24-Feb-2023 18:08:56.032 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=accept=*/*
+24-Feb-2023 18:08:56.032 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             locale=en_IN
+24-Feb-2023 18:08:56.033 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             method=GET
+24-Feb-2023 18:08:56.033 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5           pathInfo=null
+24-Feb-2023 18:08:56.033 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5           protocol=HTTP/1.1
+24-Feb-2023 18:08:56.033 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5        queryString=null
+24-Feb-2023 18:08:56.033 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5         remoteAddr=127.0.0.1
+24-Feb-2023 18:08:56.033 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5         remoteHost=127.0.0.1
+24-Feb-2023 18:08:56.033 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5         remoteUser=test
+24-Feb-2023 18:08:56.033 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5 requestedSessionId=null
+24-Feb-2023 18:08:56.033 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             scheme=http
+24-Feb-2023 18:08:56.033 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5         serverName=localhost
+24-Feb-2023 18:08:56.033 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5         serverPort=8081
+24-Feb-2023 18:08:56.033 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5        servletPath=/testRead2
+24-Feb-2023 18:08:56.033 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5           isSecure=false
+24-Feb-2023 18:08:56.033 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5 ------------------=--------------------------------------------
+24-Feb-2023 18:08:56.034 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5 ------------------=--------------------------------------------
+24-Feb-2023 18:08:56.034 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5           authType=null
+24-Feb-2023 18:08:56.034 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5        contentType=application/json
+24-Feb-2023 18:08:56.034 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=Vary=Origin
+24-Feb-2023 18:08:56.034 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.034 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=Vary=Origin
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=Vary=Origin
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=X-Content-Type-Options=nosniff
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=X-XSS-Protection=0
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=Pragma=no-cache
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=Expires=0
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=X-Frame-Options=DENY
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=Content-Type=application/json
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=Content-Length=31
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             header=Date=Fri, 24 Feb 2023 12:38:55 GMT
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5         remoteUser=test
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5             status=200
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5 END TIME          =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.035 INFO [http-nio-8081-exec-5] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-5 ===============================================================
+24-Feb-2023 18:08:56.120 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6 START TIME        =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.120 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6         requestURI=/SpringBootstrapCrud/testRead3
+24-Feb-2023 18:08:56.120 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6           authType=null
+24-Feb-2023 18:08:56.120 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6  characterEncoding=UTF-8
+24-Feb-2023 18:08:56.120 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6      contentLength=-1
+24-Feb-2023 18:08:56.120 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6        contentType=null
+24-Feb-2023 18:08:56.120 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6        contextPath=/SpringBootstrapCrud
+24-Feb-2023 18:08:56.120 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=host=localhost:8081
+24-Feb-2023 18:08:56.120 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=authorization=Basic dGVzdDp0ZXN0
+24-Feb-2023 18:08:56.120 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=user-agent=curl/7.82.0
+24-Feb-2023 18:08:56.120 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=accept=*/*
+24-Feb-2023 18:08:56.120 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             locale=en_IN
+24-Feb-2023 18:08:56.120 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             method=GET
+24-Feb-2023 18:08:56.120 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6          parameter=name=Dave
+24-Feb-2023 18:08:56.121 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6           pathInfo=null
+24-Feb-2023 18:08:56.121 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6           protocol=HTTP/1.1
+24-Feb-2023 18:08:56.121 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6        queryString=name=Dave
+24-Feb-2023 18:08:56.121 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6         remoteAddr=127.0.0.1
+24-Feb-2023 18:08:56.121 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6         remoteHost=127.0.0.1
+24-Feb-2023 18:08:56.121 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6         remoteUser=test
+24-Feb-2023 18:08:56.121 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6 requestedSessionId=null
+24-Feb-2023 18:08:56.121 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             scheme=http
+24-Feb-2023 18:08:56.121 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6         serverName=localhost
+24-Feb-2023 18:08:56.121 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6         serverPort=8081
+24-Feb-2023 18:08:56.121 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6        servletPath=/testRead3
+24-Feb-2023 18:08:56.121 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6           isSecure=false
+24-Feb-2023 18:08:56.121 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6 ------------------=--------------------------------------------
+24-Feb-2023 18:08:56.129 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6 ------------------=--------------------------------------------
+24-Feb-2023 18:08:56.129 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6           authType=null
+24-Feb-2023 18:08:56.129 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6        contentType=application/json
+24-Feb-2023 18:08:56.129 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=Vary=Origin
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=Vary=Origin
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=Vary=Origin
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=X-Content-Type-Options=nosniff
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=X-XSS-Protection=0
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=Pragma=no-cache
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=Expires=0
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=X-Frame-Options=DENY
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=Content-Type=application/json
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=Content-Length=31
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             header=Date=Fri, 24 Feb 2023 12:38:55 GMT
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6         remoteUser=test
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6             status=200
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6 END TIME          =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.130 INFO [http-nio-8081-exec-6] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-6 ===============================================================
+24-Feb-2023 18:08:56.215 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7 START TIME        =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.215 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7         requestURI=/SpringBootstrapCrud/testRead3
+24-Feb-2023 18:08:56.215 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7           authType=null
+24-Feb-2023 18:08:56.215 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7  characterEncoding=UTF-8
+24-Feb-2023 18:08:56.215 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7      contentLength=-1
+24-Feb-2023 18:08:56.215 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7        contentType=null
+24-Feb-2023 18:08:56.215 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7        contextPath=/SpringBootstrapCrud
+24-Feb-2023 18:08:56.215 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=host=localhost:8081
+24-Feb-2023 18:08:56.215 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=authorization=Basic dGVzdDp0ZXN0
+24-Feb-2023 18:08:56.215 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=user-agent=curl/7.82.0
+24-Feb-2023 18:08:56.215 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=accept=*/*
+24-Feb-2023 18:08:56.215 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             locale=en_IN
+24-Feb-2023 18:08:56.216 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             method=GET
+24-Feb-2023 18:08:56.216 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7          parameter=name=Dave
+24-Feb-2023 18:08:56.216 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7           pathInfo=null
+24-Feb-2023 18:08:56.216 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7           protocol=HTTP/1.1
+24-Feb-2023 18:08:56.216 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7        queryString=name=Dave
+24-Feb-2023 18:08:56.216 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7         remoteAddr=127.0.0.1
+24-Feb-2023 18:08:56.216 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7         remoteHost=127.0.0.1
+24-Feb-2023 18:08:56.216 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7         remoteUser=test
+24-Feb-2023 18:08:56.216 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7 requestedSessionId=null
+24-Feb-2023 18:08:56.216 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             scheme=http
+24-Feb-2023 18:08:56.216 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7         serverName=localhost
+24-Feb-2023 18:08:56.216 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7         serverPort=8081
+24-Feb-2023 18:08:56.216 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7        servletPath=/testRead3
+24-Feb-2023 18:08:56.216 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7           isSecure=false
+24-Feb-2023 18:08:56.216 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7 ------------------=--------------------------------------------
+24-Feb-2023 18:08:56.217 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7 ------------------=--------------------------------------------
+24-Feb-2023 18:08:56.217 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7           authType=null
+24-Feb-2023 18:08:56.217 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7        contentType=application/json
+24-Feb-2023 18:08:56.217 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=Vary=Origin
+24-Feb-2023 18:08:56.217 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.217 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.217 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=Vary=Origin
+24-Feb-2023 18:08:56.217 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.217 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.217 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=Vary=Origin
+24-Feb-2023 18:08:56.217 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.218 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.218 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=X-Content-Type-Options=nosniff
+24-Feb-2023 18:08:56.218 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=X-XSS-Protection=0
+24-Feb-2023 18:08:56.218 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+24-Feb-2023 18:08:56.218 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=Pragma=no-cache
+24-Feb-2023 18:08:56.218 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=Expires=0
+24-Feb-2023 18:08:56.218 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=X-Frame-Options=DENY
+24-Feb-2023 18:08:56.218 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=Content-Type=application/json
+24-Feb-2023 18:08:56.218 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=Content-Length=31
+24-Feb-2023 18:08:56.218 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             header=Date=Fri, 24 Feb 2023 12:38:55 GMT
+24-Feb-2023 18:08:56.218 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7         remoteUser=test
+24-Feb-2023 18:08:56.218 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7             status=200
+24-Feb-2023 18:08:56.218 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7 END TIME          =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.218 INFO [http-nio-8081-exec-7] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-7 ===============================================================
+24-Feb-2023 18:08:56.309 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8 START TIME        =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.309 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8         requestURI=/SpringBootstrapCrud/
+24-Feb-2023 18:08:56.309 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8           authType=null
+24-Feb-2023 18:08:56.309 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8  characterEncoding=UTF-8
+24-Feb-2023 18:08:56.309 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8      contentLength=-1
+24-Feb-2023 18:08:56.309 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8        contentType=null
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8        contextPath=/SpringBootstrapCrud
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=host=127.0.0.1:8081
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=connection=close
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=authorization=Basic dGVzdDp0ZXN0
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=user-agent=curl/7.82.0
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=accept=*/*
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             locale=en_IN
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             method=GET
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8           pathInfo=null
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8           protocol=HTTP/1.0
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8        queryString=null
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8         remoteAddr=127.0.0.1
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8         remoteHost=127.0.0.1
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8         remoteUser=test
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8 requestedSessionId=null
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             scheme=http
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8         serverName=127.0.0.1
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8         serverPort=8081
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8        servletPath=/
+24-Feb-2023 18:08:56.310 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8           isSecure=false
+24-Feb-2023 18:08:56.311 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8 ------------------=--------------------------------------------
+24-Feb-2023 18:08:56.311 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8 ------------------=--------------------------------------------
+24-Feb-2023 18:08:56.311 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8           authType=null
+24-Feb-2023 18:08:56.311 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8        contentType=application/json
+24-Feb-2023 18:08:56.312 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=Vary=Origin
+24-Feb-2023 18:08:56.312 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.312 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.312 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=Vary=Origin
+24-Feb-2023 18:08:56.312 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.312 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.312 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=Vary=Origin
+24-Feb-2023 18:08:56.312 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.312 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.312 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=X-Content-Type-Options=nosniff
+24-Feb-2023 18:08:56.312 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=X-XSS-Protection=0
+24-Feb-2023 18:08:56.312 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+24-Feb-2023 18:08:56.312 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=Pragma=no-cache
+24-Feb-2023 18:08:56.312 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=Expires=0
+24-Feb-2023 18:08:56.312 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=X-Frame-Options=DENY
+24-Feb-2023 18:08:56.312 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=Content-Type=application/json
+24-Feb-2023 18:08:56.312 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=Content-Length=11
+24-Feb-2023 18:08:56.312 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=Date=Fri, 24 Feb 2023 12:38:55 GMT
+24-Feb-2023 18:08:56.313 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             header=Connection=close
+24-Feb-2023 18:08:56.313 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8         remoteUser=test
+24-Feb-2023 18:08:56.313 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8             status=200
+24-Feb-2023 18:08:56.313 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8 END TIME          =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.313 INFO [http-nio-8081-exec-8] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-8 ===============================================================
+24-Feb-2023 18:08:56.398 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9 START TIME        =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9         requestURI=/SpringBootstrapCrud/somerandomurl
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9           authType=null
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9  characterEncoding=UTF-8
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9      contentLength=-1
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9        contentType=null
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9        contextPath=/SpringBootstrapCrud
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=host=127.0.0.1:8081
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=connection=close
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=authorization=Basic dGVzdDp0ZXN0
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=user-agent=curl/7.82.0
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=accept=*/*
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             locale=en_IN
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             method=GET
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9           pathInfo=null
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9           protocol=HTTP/1.0
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9        queryString=null
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9         remoteAddr=127.0.0.1
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9         remoteHost=127.0.0.1
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9         remoteUser=test
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9 requestedSessionId=null
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             scheme=http
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9         serverName=127.0.0.1
+24-Feb-2023 18:08:56.399 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9         serverPort=8081
+24-Feb-2023 18:08:56.400 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9        servletPath=/somerandomurl
+24-Feb-2023 18:08:56.400 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9           isSecure=false
+24-Feb-2023 18:08:56.400 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9 ------------------=--------------------------------------------
+2023-02-24 18:08:56.400  INFO  ReadController -Unmapped request handling!
+24-Feb-2023 18:08:56.400 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9 ------------------=--------------------------------------------
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9           authType=null
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9        contentType=application/json
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=Vary=Origin
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=Vary=Origin
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=Vary=Origin
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=X-Content-Type-Options=nosniff
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=X-XSS-Protection=0
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=Pragma=no-cache
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=Expires=0
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=X-Frame-Options=DENY
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=Content-Type=application/json
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=Content-Length=9
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=Date=Fri, 24 Feb 2023 12:38:55 GMT
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             header=Connection=close
+24-Feb-2023 18:08:56.401 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9         remoteUser=test
+24-Feb-2023 18:08:56.402 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9             status=200
+24-Feb-2023 18:08:56.402 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9 END TIME          =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.402 INFO [http-nio-8081-exec-9] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-9 ===============================================================
+24-Feb-2023 18:08:56.487 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10 START TIME        =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.487 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10         requestURI=/SpringBootstrapCrud/testRead
+24-Feb-2023 18:08:56.487 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10           authType=null
+24-Feb-2023 18:08:56.487 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10  characterEncoding=UTF-8
+24-Feb-2023 18:08:56.487 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10      contentLength=-1
+24-Feb-2023 18:08:56.487 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10        contentType=null
+24-Feb-2023 18:08:56.487 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10        contextPath=/SpringBootstrapCrud
+24-Feb-2023 18:08:56.487 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=host=127.0.0.1:8081
+24-Feb-2023 18:08:56.487 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=connection=close
+24-Feb-2023 18:08:56.487 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=authorization=Basic dGVzdDp0ZXN0
+24-Feb-2023 18:08:56.487 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=user-agent=curl/7.82.0
+24-Feb-2023 18:08:56.487 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=accept=*/*
+24-Feb-2023 18:08:56.487 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             locale=en_IN
+24-Feb-2023 18:08:56.487 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             method=GET
+24-Feb-2023 18:08:56.487 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10           pathInfo=null
+24-Feb-2023 18:08:56.487 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10           protocol=HTTP/1.0
+24-Feb-2023 18:08:56.487 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10        queryString=null
+24-Feb-2023 18:08:56.487 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10         remoteAddr=127.0.0.1
+24-Feb-2023 18:08:56.488 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10         remoteHost=127.0.0.1
+24-Feb-2023 18:08:56.488 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10         remoteUser=test
+24-Feb-2023 18:08:56.488 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10 requestedSessionId=null
+24-Feb-2023 18:08:56.488 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             scheme=http
+24-Feb-2023 18:08:56.488 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10         serverName=127.0.0.1
+24-Feb-2023 18:08:56.488 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10         serverPort=8081
+24-Feb-2023 18:08:56.488 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10        servletPath=/testRead
+24-Feb-2023 18:08:56.488 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10           isSecure=false
+24-Feb-2023 18:08:56.488 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10 ------------------=--------------------------------------------
+2023-02-24 18:08:56.488  INFO  ReadController -Hello World
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10 ------------------=--------------------------------------------
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10           authType=null
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10        contentType=application/json
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=Vary=Origin
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=Vary=Origin
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=Vary=Origin
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=X-Content-Type-Options=nosniff
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=X-XSS-Protection=0
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=Pragma=no-cache
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=Expires=0
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=X-Frame-Options=DENY
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=Content-Type=application/json
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=Content-Length=11
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=Date=Fri, 24 Feb 2023 12:38:55 GMT
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             header=Connection=close
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10         remoteUser=test
+24-Feb-2023 18:08:56.489 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10             status=200
+24-Feb-2023 18:08:56.490 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10 END TIME          =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.490 INFO [http-nio-8081-exec-10] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-10 ===============================================================
+24-Feb-2023 18:08:56.574 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1 START TIME        =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1         requestURI=/SpringBootstrapCrud/testRead1
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1           authType=null
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1  characterEncoding=UTF-8
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1      contentLength=-1
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1        contentType=null
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1        contextPath=/SpringBootstrapCrud
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=host=127.0.0.1:8081
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=connection=close
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=authorization=Basic dGVzdDp0ZXN0
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=user-agent=curl/7.82.0
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=accept=*/*
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             locale=en_IN
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             method=GET
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1           pathInfo=null
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1           protocol=HTTP/1.0
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1        queryString=null
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1         remoteAddr=127.0.0.1
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1         remoteHost=127.0.0.1
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1         remoteUser=test
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1 requestedSessionId=null
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             scheme=http
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1         serverName=127.0.0.1
+24-Feb-2023 18:08:56.575 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1         serverPort=8081
+24-Feb-2023 18:08:56.576 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1        servletPath=/testRead1
+24-Feb-2023 18:08:56.576 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1           isSecure=false
+24-Feb-2023 18:08:56.576 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1 ------------------=--------------------------------------------
+24-Feb-2023 18:08:56.576 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1 ------------------=--------------------------------------------
+24-Feb-2023 18:08:56.576 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1           authType=null
+24-Feb-2023 18:08:56.576 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1        contentType=application/json
+24-Feb-2023 18:08:56.576 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Vary=Origin
+24-Feb-2023 18:08:56.576 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.576 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.576 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Vary=Origin
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Vary=Origin
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=X-Content-Type-Options=nosniff
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=X-XSS-Protection=0
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Pragma=no-cache
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Expires=0
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=X-Frame-Options=DENY
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Content-Type=application/json
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Content-Length=24
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Date=Fri, 24 Feb 2023 12:38:55 GMT
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             header=Connection=close
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1         remoteUser=test
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1             status=200
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1 END TIME          =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.577 INFO [http-nio-8081-exec-1] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-1 ===============================================================
+24-Feb-2023 18:08:56.663 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2 START TIME        =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.663 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2         requestURI=/SpringBootstrapCrud/testRead2
+24-Feb-2023 18:08:56.663 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2           authType=null
+24-Feb-2023 18:08:56.663 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2  characterEncoding=UTF-8
+24-Feb-2023 18:08:56.663 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2      contentLength=-1
+24-Feb-2023 18:08:56.663 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2        contentType=null
+24-Feb-2023 18:08:56.663 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2        contextPath=/SpringBootstrapCrud
+24-Feb-2023 18:08:56.663 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=host=127.0.0.1:8081
+24-Feb-2023 18:08:56.663 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=connection=close
+24-Feb-2023 18:08:56.663 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=authorization=Basic dGVzdDp0ZXN0
+24-Feb-2023 18:08:56.663 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=user-agent=curl/7.82.0
+24-Feb-2023 18:08:56.663 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=accept=*/*
+24-Feb-2023 18:08:56.663 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             locale=en_IN
+24-Feb-2023 18:08:56.663 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             method=GET
+24-Feb-2023 18:08:56.663 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2           pathInfo=null
+24-Feb-2023 18:08:56.664 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2           protocol=HTTP/1.0
+24-Feb-2023 18:08:56.664 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2        queryString=null
+24-Feb-2023 18:08:56.664 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2         remoteAddr=127.0.0.1
+24-Feb-2023 18:08:56.664 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2         remoteHost=127.0.0.1
+24-Feb-2023 18:08:56.664 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2         remoteUser=test
+24-Feb-2023 18:08:56.664 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2 requestedSessionId=null
+24-Feb-2023 18:08:56.664 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             scheme=http
+24-Feb-2023 18:08:56.664 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2         serverName=127.0.0.1
+24-Feb-2023 18:08:56.664 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2         serverPort=8081
+24-Feb-2023 18:08:56.664 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2        servletPath=/testRead2
+24-Feb-2023 18:08:56.664 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2           isSecure=false
+24-Feb-2023 18:08:56.664 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2 ------------------=--------------------------------------------
+24-Feb-2023 18:08:56.665 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2 ------------------=--------------------------------------------
+24-Feb-2023 18:08:56.665 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2           authType=null
+24-Feb-2023 18:08:56.665 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2        contentType=application/json
+24-Feb-2023 18:08:56.665 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Vary=Origin
+24-Feb-2023 18:08:56.665 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.665 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.665 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Vary=Origin
+24-Feb-2023 18:08:56.665 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.665 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.665 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Vary=Origin
+24-Feb-2023 18:08:56.665 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.665 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.665 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=X-Content-Type-Options=nosniff
+24-Feb-2023 18:08:56.665 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=X-XSS-Protection=0
+24-Feb-2023 18:08:56.665 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+24-Feb-2023 18:08:56.665 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Pragma=no-cache
+24-Feb-2023 18:08:56.666 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Expires=0
+24-Feb-2023 18:08:56.666 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=X-Frame-Options=DENY
+24-Feb-2023 18:08:56.666 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Content-Type=application/json
+24-Feb-2023 18:08:56.666 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Content-Length=31
+24-Feb-2023 18:08:56.666 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Date=Fri, 24 Feb 2023 12:38:55 GMT
+24-Feb-2023 18:08:56.666 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             header=Connection=close
+24-Feb-2023 18:08:56.666 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2         remoteUser=test
+24-Feb-2023 18:08:56.666 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2             status=200
+24-Feb-2023 18:08:56.666 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2 END TIME          =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.666 INFO [http-nio-8081-exec-2] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-2 ===============================================================
+24-Feb-2023 18:08:56.751 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3 START TIME        =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.751 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3         requestURI=/SpringBootstrapCrud/testRead3
+24-Feb-2023 18:08:56.751 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3           authType=null
+24-Feb-2023 18:08:56.751 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3  characterEncoding=UTF-8
+24-Feb-2023 18:08:56.751 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3      contentLength=-1
+24-Feb-2023 18:08:56.751 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3        contentType=null
+24-Feb-2023 18:08:56.751 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3        contextPath=/SpringBootstrapCrud
+24-Feb-2023 18:08:56.751 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=host=127.0.0.1:8081
+24-Feb-2023 18:08:56.751 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=connection=close
+24-Feb-2023 18:08:56.751 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=authorization=Basic dGVzdDp0ZXN0
+24-Feb-2023 18:08:56.751 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=user-agent=curl/7.82.0
+24-Feb-2023 18:08:56.751 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=accept=*/*
+24-Feb-2023 18:08:56.751 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             locale=en_IN
+24-Feb-2023 18:08:56.751 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             method=GET
+24-Feb-2023 18:08:56.751 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3          parameter=name=Dave
+24-Feb-2023 18:08:56.752 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3           pathInfo=null
+24-Feb-2023 18:08:56.752 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3           protocol=HTTP/1.0
+24-Feb-2023 18:08:56.752 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3        queryString=name=Dave
+24-Feb-2023 18:08:56.752 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3         remoteAddr=127.0.0.1
+24-Feb-2023 18:08:56.752 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3         remoteHost=127.0.0.1
+24-Feb-2023 18:08:56.752 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3         remoteUser=test
+24-Feb-2023 18:08:56.752 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3 requestedSessionId=null
+24-Feb-2023 18:08:56.752 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             scheme=http
+24-Feb-2023 18:08:56.752 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3         serverName=127.0.0.1
+24-Feb-2023 18:08:56.752 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3         serverPort=8081
+24-Feb-2023 18:08:56.752 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3        servletPath=/testRead3
+24-Feb-2023 18:08:56.752 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3           isSecure=false
+24-Feb-2023 18:08:56.752 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3 ------------------=--------------------------------------------
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3 ------------------=--------------------------------------------
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3           authType=null
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3        contentType=application/json
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Vary=Origin
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Vary=Origin
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Vary=Origin
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=X-Content-Type-Options=nosniff
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=X-XSS-Protection=0
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Pragma=no-cache
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Expires=0
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=X-Frame-Options=DENY
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Content-Type=application/json
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Content-Length=31
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Date=Fri, 24 Feb 2023 12:38:56 GMT
+24-Feb-2023 18:08:56.753 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             header=Connection=close
+24-Feb-2023 18:08:56.754 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3         remoteUser=test
+24-Feb-2023 18:08:56.754 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3             status=200
+24-Feb-2023 18:08:56.754 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3 END TIME          =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.754 INFO [http-nio-8081-exec-3] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-3 ===============================================================
+24-Feb-2023 18:08:56.838 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4 START TIME        =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.838 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4         requestURI=/SpringBootstrapCrud/testRead3
+24-Feb-2023 18:08:56.838 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4           authType=null
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4  characterEncoding=UTF-8
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4      contentLength=-1
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4        contentType=null
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4        contextPath=/SpringBootstrapCrud
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=host=127.0.0.1:8081
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=connection=close
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=authorization=Basic dGVzdDp0ZXN0
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=user-agent=curl/7.82.0
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=accept=*/*
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             locale=en_IN
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             method=GET
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4          parameter=name=Dave
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4           pathInfo=null
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4           protocol=HTTP/1.0
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4        queryString=name=Dave
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4         remoteAddr=127.0.0.1
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4         remoteHost=127.0.0.1
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4         remoteUser=test
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4 requestedSessionId=null
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             scheme=http
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4         serverName=127.0.0.1
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4         serverPort=8081
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4        servletPath=/testRead3
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4           isSecure=false
+24-Feb-2023 18:08:56.839 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4 ------------------=--------------------------------------------
+24-Feb-2023 18:08:56.840 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4 ------------------=--------------------------------------------
+24-Feb-2023 18:08:56.840 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4           authType=null
+24-Feb-2023 18:08:56.840 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4        contentType=application/json
+24-Feb-2023 18:08:56.840 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Vary=Origin
+24-Feb-2023 18:08:56.840 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.840 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.840 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Vary=Origin
+24-Feb-2023 18:08:56.840 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.840 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.840 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Vary=Origin
+24-Feb-2023 18:08:56.841 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Vary=Access-Control-Request-Method
+24-Feb-2023 18:08:56.841 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Vary=Access-Control-Request-Headers
+24-Feb-2023 18:08:56.841 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=X-Content-Type-Options=nosniff
+24-Feb-2023 18:08:56.841 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=X-XSS-Protection=0
+24-Feb-2023 18:08:56.841 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+24-Feb-2023 18:08:56.841 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Pragma=no-cache
+24-Feb-2023 18:08:56.841 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Expires=0
+24-Feb-2023 18:08:56.841 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=X-Frame-Options=DENY
+24-Feb-2023 18:08:56.841 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Content-Type=application/json
+24-Feb-2023 18:08:56.841 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Content-Length=31
+24-Feb-2023 18:08:56.841 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Date=Fri, 24 Feb 2023 12:38:56 GMT
+24-Feb-2023 18:08:56.841 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             header=Connection=close
+24-Feb-2023 18:08:56.841 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4         remoteUser=test
+24-Feb-2023 18:08:56.841 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4             status=200
+24-Feb-2023 18:08:56.841 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4 END TIME          =24-Feb-2023 18:08:56
+24-Feb-2023 18:08:56.841 INFO [http-nio-8081-exec-4] org.apache.catalina.filters.RequestDumperFilter.doLog http-nio-8081-exec-4 ===============================================================
+24-Feb-2023 18:08:56.969 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Feb-2023 18:08:56.969 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+24-Feb-2023 18:08:56.971 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Feb-2023 18:08:56.987 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+24-Feb-2023 18:08:56.995 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]

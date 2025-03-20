@@ -1,0 +1,2 @@
+insert into test.test values ('ram', 1);
+insert into test.test values ('dev', 2);

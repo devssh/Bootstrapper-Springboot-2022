@@ -1,0 +1,16 @@
+COMMAND   PID   USER   FD     TYPE             DEVICE  SIZE/OFF                NODE NAME
+nginx   18096 devssh  cwd      DIR               1,16      1056             9610921 /Users/devssh/GithubTest/SpringBootstrapCrud/Application/Application
+nginx   18096 devssh  txt      REG               1,16   1236304             8970817 /opt/homebrew/Cellar/nginx/1.23.3/bin/nginx
+nginx   18096 devssh  txt      REG               1,16   2177216 1152921500312782999 /usr/lib/dyld
+nginx   18096 devssh  txt      REG               1,16    544464             8205882 /opt/homebrew/Cellar/pcre2/10.42/lib/libpcre2-8.0.dylib
+nginx   18096 devssh  txt      REG               1,16    505936             8264472 /opt/homebrew/Cellar/openssl@1.1/1.1.1s/lib/libssl.1.1.dylib
+nginx   18096 devssh  txt      REG               1,16   2191360             8264470 /opt/homebrew/Cellar/openssl@1.1/1.1.1s/lib/libcrypto.1.1.dylib
+nginx   18096 devssh    0u     CHR                3,2       0t0                 337 /dev/null
+nginx   18096 devssh    1u     CHR                3,2       0t0                 337 /dev/null
+nginx   18096 devssh    2w     REG               1,16     19598             9166440 /opt/homebrew/var/log/nginx/error.log
+nginx   18096 devssh    4w     REG               1,16    120083             9166446 /opt/homebrew/var/log/nginx/access.log
+nginx   18096 devssh    5w     REG               1,16     19598             9166440 /opt/homebrew/var/log/nginx/error.log
+nginx   18096 devssh    6u     CHR               16,0 0t2710631                 707 /dev/ttys000
+nginx   18096 devssh    7u    IPv4 0xd8387bf95b5fdc1d       0t0                 TCP *:http (LISTEN)
+nginx   18096 devssh    8u    unix 0xd8387bf95aaa1165       0t0                     ->0xd8387bf95aaa073d
+nginx   18096 devssh    9u  KQUEUE                                                  count=0, state=0xa
